@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/bin/node /mnt/c/Users/FVO_MMILLLER/AppData/Roaming/npm/node_modules/yarn/bin/yarn.js install
+
+PATH: 
+  /home/bobelr/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_2004.2020.424.0_x64__79rhkp1fndgsc:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/FVO_MMILLLER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/FVO_MMILLLER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/FVO_MMILLLER/AppData/Roaming/npm:/mnt/c/Users/FVO_MMILLLER/AppData/Local/GitHubDesktop/bin:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.19.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.5",
+      "@nomiclabs/hardhat-waffle": "^2.0.3",
+      "chai": "^4.3.6",
+      "circomlib": "^2.0.3",
+      "circomlibjs": "^0.1.2",
+      "ethereum-waffle": "^3.4.4",
+      "ethers": "^5.6.4",
+      "hardhat": "^2.9.3",
+      "snarkjs": "^0.4.16"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

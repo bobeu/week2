@@ -72,5 +72,6 @@ describe("MerkleTree", function () {
         expect(await merkleTree.verify(a, b, c, input)).to.be.true;
 
         // [bonus] verify the second leaf with the inclusion proof
+
     });
 });
